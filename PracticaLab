@@ -1,0 +1,50 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    /*
+    float n;
+    cout<< "Ingrese un numero: "<< endl;
+    cin >> n;
+    if(n==2 | n==1)
+    {
+        cout<< "Es potencia de 2"<< endl;
+        return 0;
+    }
+    while(n)
+    {
+        n=n/2;
+        cout<< n << endl;
+        if(n==2)
+        {
+            cout<< "El numero ingresado es potencia de 2"<< endl;
+            return 0;
+        }
+        if(n<=2)
+        {
+            cout<< "No es potencia de 2"<< endl;
+            return 0;
+        }
+
+    }
+    */
+    float n2;
+    float o;
+    float p;
+    cin >> n2;
+    while(n2)
+    {
+        o=n2/2.0;
+        p=round(o);
+        if(p-8<=1)
+        {
+            cout<< "Es primo" << endl;
+        }
+
+        return 0;
+    }
+
+
+}
